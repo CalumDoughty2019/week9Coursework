@@ -45,31 +45,26 @@ public class Menu {
                     arrayStack.push(input);
                     System.out.println("Value added: " + arrayStack.top());
                     pressEnterToContinue();
-                    CLI();
                     break;
                 case "2":
                     validInput = true;
                     System.out.println("Top value: " + arrayStack.pop() + " was removed");
-                    pause();
-                    CLI();
+                    pressEnterToContinue();
                     break;
                 case "3":
                     validInput = true;
                     System.out.println("Top value is: " + arrayStack.top());
                     pressEnterToContinue();
-                    CLI();
                     break;
                 case "4":
                     validInput = true;
                     System.out.println("Is stack empty? : " + arrayStack.isEmpty());
                     pressEnterToContinue();
-                    CLI();
                     break;
                 case "5":
                     validInput = true;
                     System.out.println("Stack size: " + arrayStack.size());
                     pressEnterToContinue();
-                    CLI();
                     break;
                 case "menu":
                     validInput = true;
